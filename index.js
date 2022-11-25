@@ -30,8 +30,8 @@ function fareDoubler(fare){
 function fareTripler(fare){
     return fare*3;
 }
-function selectDifferentDrivers(drivers, returnDrivers){
-    let selectingDrivers = returnDrivers(drivers);
+function selectDifferentDrivers(drivers, returnFirstTwoDrivers){
+    let selectingDrivers = returnFirstTwoDrivers(drivers);
     return selectingDrivers;
 }
 
