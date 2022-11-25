@@ -24,14 +24,15 @@ function createFareMultiplier(integer) {
 }
 
 function fareDoubler(fare){
-    return fare*2
+    return fare*2;
 }
 
 function fareTripler(fare){
-    return fare*3
+    return fare*3;
 }
-function selectDifferentDrivers(arryOfDrivers, returnDrivers){
-    let selectingDrivers = returnDrivers(arryOfDrivers);return selectingDrivers;
+function selectDifferentDrivers(drivers, returnDrivers){
+    let selectingDrivers = returnDrivers(drivers);
+    return selectingDrivers;
 }
 
 
